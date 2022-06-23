@@ -1,0 +1,29 @@
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://xiaoyued2009.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jun 2022 22:59:47 +0800</lastBuildDate>
+    
+        <atom:link href="https://xiaoyued2009.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+        <item>
+        <title>DDD</title>
+        <link>https://xiaoyued2009.github.io/post/firstblog/</link>
+        <pubDate>Thu, 23 Jun 2022 22:59:47 +0800</pubDate>
+        
+        <guid>https://xiaoyued2009.github.io/post/firstblog/</guid>
+        <description>My New Hugo Site https://xiaoyued2009.github.io/post/firstblog/ -&lt;h1 id=&#34;ddd是什么&#34;&gt;DDD是什么&lt;/h1&gt;
+&lt;p&gt;DDD，全称Domain Drive Design，中文翻译过来又称领域驱动设计。最早由Eric Evans在2003年出版的《领域驱动设计：软件核心复杂性应对之道》（&lt;em&gt;Domain-Driven Design: Tackling Complexity in the Heart of Software&lt;/em&gt;）一书中提出。随着微服务的流行，DDD也随之被越来越多的公司关注重视起来。
+需要特别说明的是，DDD它不是一套框架，而是一种综合软件系统分析和设计的面向对象建模架构指导思想，旨在帮我们设计高质量的软件模型，是一种解决复杂中大型软件的一套行之有效的方式。&lt;/p&gt;
+- https://xiaoyued2009.github.io/post/firstblog/ - </description>
+        </item>
+    
+    
+  </channel>
+</rss> 
