@@ -6,22 +6,47 @@
     <description>Recent content on Sam Ming·杂货铺</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jun 2022 22:59:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jul 2022 22:31:48 +0800</lastBuildDate>
     
         <atom:link href="https://xiaoyued2009.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
+        <title>幂等性</title>
+        <link>https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/</link>
+        <pubDate>Sun, 03 Jul 2022 22:31:48 +0800</pubDate>
+        
+        <guid>https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/</guid>
+        <description>Sam Ming·杂货铺 https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/ -&lt;h3 id=&#34;1-定义&#34;&gt;1. 定义&lt;/h3&gt;
+&lt;p&gt;幂等：是一个数学与计算机学概念，在数学中某一元运算为幂等时，其作用在任一元素两次后会和其作用一次的结果相同。&lt;/p&gt;
+&lt;p&gt;幂等性：多次调用方法或者接口不会改变业务状态，可以保证重复调用的结果和单次调用的结果一致&lt;/p&gt;
+&lt;h3 id=&#34;2-使用场景&#34;&gt;2. 使用场景&lt;/h3&gt;
+&lt;h4 id=&#34;21-前端重复提交&#34;&gt;2.1. 前端重复提交&lt;/h4&gt;
+&lt;h4 id=&#34;22-接口超时重试&#34;&gt;2.2. 接口超时重试&lt;/h4&gt;
+&lt;h4 id=&#34;23-消息重复消费&#34;&gt;2.3. 消息重复消费&lt;/h4&gt;
+&lt;h3 id=&#34;3-解决方案&#34;&gt;3. 解决方案&lt;/h3&gt;
+&lt;h3 id=&#34;4-幂等缺点&#34;&gt;4. 幂等缺点&lt;/h3&gt;
+&lt;h3 id=&#34;5-参考资料&#34;&gt;5. 参考资料&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://mp.weixin.qq.com/s/gqvgysyGcP3yr0of_GwaTw&#34;&gt;https://mp.weixin.qq.com/s/gqvgysyGcP3yr0of_GwaTw&lt;/a&gt;
+&lt;a href=&#34;https://mp.weixin.qq.com/s/QgliAGeUAISQVR4VNWqdgA&#34;&gt;https://mp.weixin.qq.com/s/QgliAGeUAISQVR4VNWqdgA&lt;/a&gt;
+&lt;a href=&#34;https://juejin.cn/post/6906290538761158670#heading-0&#34;&gt;https://juejin.cn/post/6906290538761158670#heading-0&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;#java #幂等性&lt;/p&gt;
+- https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/ - </description>
+        </item>
+    
+    
+    
+        <item>
         <title>DDD</title>
-        <link>https://xiaoyued2009.github.io/post/firstblog/</link>
+        <link>https://xiaoyued2009.github.io/posts/firstblog/</link>
         <pubDate>Thu, 23 Jun 2022 22:59:47 +0800</pubDate>
         
-        <guid>https://xiaoyued2009.github.io/post/firstblog/</guid>
-        <description>Sam Ming·杂货铺 https://xiaoyued2009.github.io/post/firstblog/ -&lt;h1 id=&#34;ddd是什么&#34;&gt;DDD是什么&lt;/h1&gt;
+        <guid>https://xiaoyued2009.github.io/posts/firstblog/</guid>
+        <description>Sam Ming·杂货铺 https://xiaoyued2009.github.io/posts/firstblog/ -&lt;h1 id=&#34;ddd是什么&#34;&gt;DDD是什么&lt;/h1&gt;
 &lt;p&gt;DDD，全称Domain Drive Design，中文翻译过来又称领域驱动设计。最早由Eric Evans在2003年出版的《领域驱动设计：软件核心复杂性应对之道》（&lt;em&gt;Domain-Driven Design: Tackling Complexity in the Heart of Software&lt;/em&gt;）一书中提出。随着微服务的流行，DDD也随之被越来越多的公司关注重视起来。
 需要特别说明的是，DDD它不是一套框架，而是一种综合软件系统分析和设计的面向对象建模架构指导思想，旨在帮我们设计高质量的软件模型，是一种解决复杂中大型软件的一套行之有效的方式。&lt;/p&gt;
-- https://xiaoyued2009.github.io/post/firstblog/ - </description>
+- https://xiaoyued2009.github.io/posts/firstblog/ - </description>
         </item>
     
     

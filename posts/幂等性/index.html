@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>DDD</title>
+<title>幂等性</title>
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-<link rel="stylesheet" href="http://example.org/scss/journal.min.0f46f98b723f2aad4b02d9370bb6aa7848b5c2b2a5579642014082283683d2d8.css" integrity="sha256-D0b5i3I/Kq1LAtk3C7aqeEi1wrKlV5ZCAUCCKDaD0tg=" media="screen">
+<link rel="stylesheet" href="https://xiaoyued2009.github.io/scss/journal.min.0f46f98b723f2aad4b02d9370bb6aa7848b5c2b2a5579642014082283683d2d8.css" integrity="sha256-D0b5i3I/Kq1LAtk3C7aqeEi1wrKlV5ZCAUCCKDaD0tg=" media="screen">
 
 
 
@@ -67,7 +67,7 @@
 <body>
     	<div id="app"><div id="sideContainer" class="side-container">
     
-    <a class="a-block nav-head false" href="http://example.org/">
+    <a class="a-block nav-head false" href="https://xiaoyued2009.github.io/">
     
         <div class="nav-title">
             Sam Ming·杂货铺
@@ -85,9 +85,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/posts">
+            
+            <a class="a-block nav-link-item active" href="/posts">
                 Archive
             </a>
             
@@ -163,10 +165,156 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 						
+							
+								
+									<ul>
+								
+							
+								
+									<ul>
+								
+							
+						
 						
 							<li>
-								<a href="#ddd%e6%98%af%e4%bb%80%e4%b9%88" onclick="onNavClick(`#ddd是什么-nav`)" id="ddd是什么-nav">
-									DDD是什么
+								<a href="#1-%e5%ae%9a%e4%b9%89" onclick="onNavClick(`#1-定义-nav`)" id="1-定义-nav">
+									1. 定义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2-%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af" onclick="onNavClick(`#2-使用场景-nav`)" id="2-使用场景-nav">
+									2. 使用场景
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#21-%e5%89%8d%e7%ab%af%e9%87%8d%e5%a4%8d%e6%8f%90%e4%ba%a4" onclick="onNavClick(`#21-前端重复提交-nav`)" id="21-前端重复提交-nav">
+									2.1. 前端重复提交
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#22-%e6%8e%a5%e5%8f%a3%e8%b6%85%e6%97%b6%e9%87%8d%e8%af%95" onclick="onNavClick(`#22-接口超时重试-nav`)" id="22-接口超时重试-nav">
+									2.2. 接口超时重试
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#23-%e6%b6%88%e6%81%af%e9%87%8d%e5%a4%8d%e6%b6%88%e8%b4%b9" onclick="onNavClick(`#23-消息重复消费-nav`)" id="23-消息重复消费-nav">
+									2.3. 消息重复消费
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#3-%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" onclick="onNavClick(`#3-解决方案-nav`)" id="3-解决方案-nav">
+									3. 解决方案
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#4-%e5%b9%82%e7%ad%89%e7%bc%ba%e7%82%b9" onclick="onNavClick(`#4-幂等缺点-nav`)" id="4-幂等缺点-nav">
+									4. 幂等缺点
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#5-%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" onclick="onNavClick(`#5-参考资料-nav`)" id="5-参考资料-nav">
+									5. 参考资料
 								</a>
 							</li>
 						
@@ -199,9 +347,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/posts">
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
                     Archive
                 </a>
                 
@@ -257,10 +407,156 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 						
 						
 						
+							
+								
+									<ul>
+								
+							
+								
+									<ul>
+								
+							
+						
 						
 							<li>
-								<a href="#ddd%e6%98%af%e4%bb%80%e4%b9%88" onclick="onNavClick(`#ddd是什么-nav`)" id="ddd是什么-nav">
-									DDD是什么
+								<a href="#1-%e5%ae%9a%e4%b9%89" onclick="onNavClick(`#1-定义-nav`)" id="1-定义-nav">
+									1. 定义
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2-%e4%bd%bf%e7%94%a8%e5%9c%ba%e6%99%af" onclick="onNavClick(`#2-使用场景-nav`)" id="2-使用场景-nav">
+									2. 使用场景
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#21-%e5%89%8d%e7%ab%af%e9%87%8d%e5%a4%8d%e6%8f%90%e4%ba%a4" onclick="onNavClick(`#21-前端重复提交-nav`)" id="21-前端重复提交-nav">
+									2.1. 前端重复提交
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#22-%e6%8e%a5%e5%8f%a3%e8%b6%85%e6%97%b6%e9%87%8d%e8%af%95" onclick="onNavClick(`#22-接口超时重试-nav`)" id="22-接口超时重试-nav">
+									2.2. 接口超时重试
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#23-%e6%b6%88%e6%81%af%e9%87%8d%e5%a4%8d%e6%b6%88%e8%b4%b9" onclick="onNavClick(`#23-消息重复消费-nav`)" id="23-消息重复消费-nav">
+									2.3. 消息重复消费
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#3-%e8%a7%a3%e5%86%b3%e6%96%b9%e6%a1%88" onclick="onNavClick(`#3-解决方案-nav`)" id="3-解决方案-nav">
+									3. 解决方案
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#4-%e5%b9%82%e7%ad%89%e7%bc%ba%e7%82%b9" onclick="onNavClick(`#4-幂等缺点-nav`)" id="4-幂等缺点-nav">
+									4. 幂等缺点
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#5-%e5%8f%82%e8%80%83%e8%b5%84%e6%96%99" onclick="onNavClick(`#5-参考资料-nav`)" id="5-参考资料-nav">
+									5. 参考资料
 								</a>
 							</li>
 						
@@ -287,7 +583,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 menu
             </i>
         </button>
-        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+        <a id="navTitle" class="navbar-brand" href="https://xiaoyued2009.github.io/">
             Sam Ming·杂货铺
         </a>
         
@@ -295,7 +591,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </nav>
 <div class="single-column-header-container" id="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="http://example.org/">
+    <a href="https://xiaoyued2009.github.io/">
         <div class="single-column-header-title">Sam Ming·杂货铺</div>
         
         <div class="single-column-header-subtitle">人生小酒馆.</div>
@@ -317,12 +613,12 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
             >
                 <div class="post-title">
-                    DDD
+                    幂等性
                     
                     <div class="post-meta">
                         
                         <time itemprop="datePublished">
-                            2022-06-23 22:59
+                            2022-07-03 22:31
                         </time>
                         
 
@@ -338,13 +634,24 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 <div class="post-body" v-pre>
                 
-                    <h1 id="ddd是什么">DDD是什么</h1>
-<p>DDD，全称Domain Drive Design，中文翻译过来又称领域驱动设计。最早由Eric Evans在2003年出版的《领域驱动设计：软件核心复杂性应对之道》（<em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>）一书中提出。随着微服务的流行，DDD也随之被越来越多的公司关注重视起来。
-需要特别说明的是，DDD它不是一套框架，而是一种综合软件系统分析和设计的面向对象建模架构指导思想，旨在帮我们设计高质量的软件模型，是一种解决复杂中大型软件的一套行之有效的方式。</p>
+                    <h3 id="1-定义">1. 定义</h3>
+<p>幂等：是一个数学与计算机学概念，在数学中某一元运算为幂等时，其作用在任一元素两次后会和其作用一次的结果相同。</p>
+<p>幂等性：多次调用方法或者接口不会改变业务状态，可以保证重复调用的结果和单次调用的结果一致</p>
+<h3 id="2-使用场景">2. 使用场景</h3>
+<h4 id="21-前端重复提交">2.1. 前端重复提交</h4>
+<h4 id="22-接口超时重试">2.2. 接口超时重试</h4>
+<h4 id="23-消息重复消费">2.3. 消息重复消费</h4>
+<h3 id="3-解决方案">3. 解决方案</h3>
+<h3 id="4-幂等缺点">4. 幂等缺点</h3>
+<h3 id="5-参考资料">5. 参考资料</h3>
+<p><a href="https://mp.weixin.qq.com/s/gqvgysyGcP3yr0of_GwaTw">https://mp.weixin.qq.com/s/gqvgysyGcP3yr0of_GwaTw</a>
+<a href="https://mp.weixin.qq.com/s/QgliAGeUAISQVR4VNWqdgA">https://mp.weixin.qq.com/s/QgliAGeUAISQVR4VNWqdgA</a>
+<a href="https://juejin.cn/post/6906290538761158670#heading-0">https://juejin.cn/post/6906290538761158670#heading-0</a></p>
+<p>#java #幂等性</p>
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2022-06-23</p>
+		    <p style="color:#777;">最后修改于 2022-07-03</p>
                     
                 </div>
             </div>
@@ -359,8 +666,8 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
-                <a class="older-posts">
-			上回<br>这是最旧的文章了。
+                <a class="older-posts" href="https://xiaoyued2009.github.io/posts/firstblog/">
+			上回<br>DDD
                 </a>
                 
             </nav>

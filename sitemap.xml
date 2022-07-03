@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xiaoyued2009.github.io/post/firstblog/</loc>
-    <lastmod>2022-06-23T22:59:47+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaoyued2009.github.io/post/</loc>
-    <lastmod>2022-06-23T22:59:47+08:00</lastmod>
+    <loc>https://xiaoyued2009.github.io/posts/</loc>
+    <lastmod>2022-07-03T22:31:48+08:00</lastmod>
   </url><url>
     <loc>https://xiaoyued2009.github.io/</loc>
+    <lastmod>2022-07-03T22:31:48+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/</loc>
+    <lastmod>2022-07-03T22:31:48+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaoyued2009.github.io/posts/firstblog/</loc>
     <lastmod>2022-06-23T22:59:47+08:00</lastmod>
   </url><url>
     <loc>https://xiaoyued2009.github.io/categories/</loc>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<title>Posts</title>
+<title>DDD</title>
 
 
 
@@ -34,7 +34,7 @@
 
 
 
-<link rel="stylesheet" href="http://example.org/scss/journal.min.0f46f98b723f2aad4b02d9370bb6aa7848b5c2b2a5579642014082283683d2d8.css" integrity="sha256-D0b5i3I/Kq1LAtk3C7aqeEi1wrKlV5ZCAUCCKDaD0tg=" media="screen">
+<link rel="stylesheet" href="https://xiaoyued2009.github.io/scss/journal.min.0f46f98b723f2aad4b02d9370bb6aa7848b5c2b2a5579642014082283683d2d8.css" integrity="sha256-D0b5i3I/Kq1LAtk3C7aqeEi1wrKlV5ZCAUCCKDaD0tg=" media="screen">
 
 
 
@@ -47,6 +47,8 @@
 
 
 
+
+  <script src="/js/toc.js"></script>
 
 
 
@@ -65,7 +67,7 @@
 <body>
     	<div id="app"><div id="sideContainer" class="side-container">
     
-    <a class="a-block nav-head false" href="http://example.org/">
+    <a class="a-block nav-head false" href="https://xiaoyued2009.github.io/">
     
         <div class="nav-title">
             Sam Ming·杂货铺
@@ -83,9 +85,11 @@
             
             
             
+                
             
             
-            <a class="a-block nav-link-item false" href="/posts">
+            
+            <a class="a-block nav-link-item active" href="/posts">
                 Archive
             </a>
             
@@ -141,14 +145,48 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </div><div id="extraContainer" class="extra-container">
     
     
+    <div class="toc animated-visibility" :class="{ invisible: scrollY <= 140 }">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#ddd%e6%98%af%e4%bb%80%e4%b9%88" onclick="onNavClick(`#ddd是什么-nav`)" id="ddd是什么-nav">
+									DDD是什么
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+    
     <div class="pagination">
         <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
             <i class="material-icons pagination-action-icon">
                 keyboard_arrow_up
             </i>
         </a>
-        
-        
         
         
     </div>
@@ -163,9 +201,11 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
                 
                 
+                    
                 
                 
-                <a class="a-block drawer-menu-item false" href="/posts">
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
                     Archive
                 </a>
                 
@@ -201,6 +241,42 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 
             
             
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 目录 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#ddd%e6%98%af%e4%bb%80%e4%b9%88" onclick="onNavClick(`#ddd是什么-nav`)" id="ddd是什么-nav">
+									DDD是什么
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
         </div>
     </div>
 </div>
@@ -215,7 +291,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 menu
             </i>
         </button>
-        <a id="navTitle" class="navbar-brand" href="http://example.org/">
+        <a id="navTitle" class="navbar-brand" href="https://xiaoyued2009.github.io/">
             Sam Ming·杂货铺
         </a>
         
@@ -223,7 +299,7 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 </nav>
 <div class="single-column-header-container" id="pageHead"
      v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
-    <a href="http://example.org/">
+    <a href="https://xiaoyued2009.github.io/">
         <div class="single-column-header-title">Sam Ming·杂货铺</div>
         
         <div class="single-column-header-subtitle">人生小酒馆.</div>
@@ -236,53 +312,81 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
                 <div id="streamContainer" class="stream-container">
 
     <div class="post-list-container post-list-container-shadow">
-        
-            <a class="a-block">
-                <div class="post-item-wrapper post-item-wrapper-no-hover">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title post-item-title-small year">
-                                2022
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
+        <div class="post">
             
-            <a href="/post/firstblog/" class="a-block">
-                <div class="post-item-wrapper">
-                    <div class="post-item post-item-no-gaps">
-                        <div class="post-item-info-wrapper">
-                            <div class="post-item-title">
-                                DDD
-                            </div>
-                            <div class="post-item-meta">
-    2022-06-23
-    &emsp;
-    
-    
-    
-    &emsp;
-    
-    <span class="draft-label">草稿</span>
-    
-</div>
+            
+            
 
-                        </div>
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    DDD
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2022-06-23 22:59
+                        </time>
+                        
+
+                        
+
+                        
+                        
                     </div>
                 </div>
-            </a>
+            </div>
             
-        
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="ddd是什么">DDD是什么</h1>
+<p>DDD，全称Domain Drive Design，中文翻译过来又称领域驱动设计。最早由Eric Evans在2003年出版的《领域驱动设计：软件核心复杂性应对之道》（<em>Domain-Driven Design: Tackling Complexity in the Heart of Software</em>）一书中提出。随着微服务的流行，DDD也随之被越来越多的公司关注重视起来。
+需要特别说明的是，DDD它不是一套框架，而是一种综合软件系统分析和设计的面向对象建模架构指导思想，旨在帮我们设计高质量的软件模型，是一种解决复杂中大型软件的一套行之有效的方式。</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">最后修改于 2022-06-23</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="https://xiaoyued2009.github.io/posts/%E5%B9%82%E7%AD%89%E6%80%A7/">
+			下回<br>幂等性
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			上回<br>这是最旧的文章了。
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
     </div>
 
 
-
                     </div>
-            </div>
-
-
-<div id="single-column-footer">
+            </div><div id="single-column-footer">
 Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
 <br>
 移植自 <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
